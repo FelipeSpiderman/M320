@@ -66,7 +66,6 @@ public class HeatingSystem {
         System.out.println("Living Room: " + house.getTemperatureForRoom("Living Room"));
         System.out.println("Bedroom: " + house.getTemperatureForRoom("Bedroom"));
 
-
         house.setTemperatureForRoom("Living Room", 22.0);
         house.setTemperatureForRoom("Bedroom", 19.5);
 
