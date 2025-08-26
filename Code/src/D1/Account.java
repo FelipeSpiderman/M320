@@ -17,20 +17,43 @@ public class Account {
     public Customer getOwner() { return owner; }
     public BigDecimal getBalance() { return balance; }
 
-    public void deposit(BigDecimal amount) {
-        if (amount.signum() <= 0) throw new IllegalArgumentException("amount > 0 required");
-        balance = balance.add(amount);
+    public boolean deposit(BigDecimal amount) {
+        if (amount == null) {
+            return false;
+        } else if (amount.signum() <= 0) {
+            return false;
+        } else {
+            balance = balance.add(amount);
+            return true;
+        }
     }
 
-    public void withdraw(BigDecimal amount) {
-        if (amount.signum() <= 0) throw new IllegalArgumentException("amount > 0 required");
-        if (balance.compareTo(amount) < 0) throw new IllegalStateException("insufficient funds");
-        balance = balance.subtract(amount);
+    public boolean withdraw(BigDecimal amount) {
+        if (amount == null) {
+            return false;
+        } else if (amount.signum() <= 0) {
+            return false;
+        } else if (balance.compareTo(amount) < 0) {
+            return false;
+        } else {
+            balance = balance.subtract(amount);
+            return true;
+        }
     }
 
-    public void transferTo(Account target, BigDecimal amount) {
-        if (target == null) throw new IllegalArgumentException("target required");
-        withdraw(amount);
-        target.deposit(amount);
+    public boolean transferTo(Account target, BigDecimal amount) {
+        if (target == null) {
+            return false;
+        } else if (amount == null) {
+            return false;
+        } else if (amount.signum() <= 0) {
+            return false;
+        } else if (balance.compareTo(amount) < 0) {
+            return false;
+        } else {
+            balance = balance.subtract(amount);
+            target.balance = target.balance.add(amount);
+            return true;
+        }
     }
 }

@@ -10,9 +10,20 @@ public class MainBank {
         Account a1 = new Account("CH93-0000-AL1", alice, new BigDecimal("500.00"));
         Account a2 = new Account("CH93-0000-BB2", bob, new BigDecimal("120.00"));
 
-        a1.deposit(new BigDecimal("50.00"));
-        a2.withdraw(new BigDecimal("20.00"));
-        a1.transferTo(a2, new BigDecimal("100.00"));
+        if (a1.deposit(new BigDecimal("50.00"))) {
+        } else {
+            System.out.println("Fehler");
+        }
+
+        if (a2.withdraw(new BigDecimal("20.00"))) {
+        } else {
+            System.out.println("Fehler");
+        }
+
+        if (a1.transferTo(a2, new BigDecimal("100.00"))) {
+        } else {
+            System.out.println("Fehler");
+        }
 
         System.out.println(a1.getOwner().getDisplayName() + " " + a1.getIban() + " " + a1.getBalance());
         System.out.println(a2.getOwner().getDisplayName() + " " + a2.getIban() + " " + a2.getBalance());
