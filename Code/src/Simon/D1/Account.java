@@ -1,4 +1,4 @@
-package D1;
+package Simon.D1;
 
 import java.math.BigDecimal;
 
