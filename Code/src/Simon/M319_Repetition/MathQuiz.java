@@ -9,7 +9,7 @@ public class MathQuiz {
         int correct = 0;
 
         long start = System.currentTimeMillis();
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 10; i++) x{
             int a = randomNumber.nextInt(10) + 1;
             int b = randomNumber.nextInt(10) + 1;
             int result = a + b;
