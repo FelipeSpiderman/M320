@@ -1,5 +1,8 @@
 package Felipe.V1;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 abstract class Vehicle {
     protected String brand;
     protected int year;
@@ -10,13 +13,9 @@ abstract class Vehicle {
     }
 
     public abstract void displayInfo();
-
-    public String getBrand() {
-        return brand;
-    }
 }
 
-class Car extends Vehicle {
+class Car extends Vehicle implements Comparable<Car> {
     private int doors;
 
     public Car(String brand, int year, int doors) {
@@ -27,6 +26,11 @@ class Car extends Vehicle {
     @Override
     public void displayInfo() {
         System.out.println("Car: " + brand + ", Year: " + year + ", Doors: " + doors);
+    }
+
+    @Override
+    public int compareTo(Car other) {
+        return Integer.compare(this.year, other.year);
     }
 }
 
@@ -44,11 +48,32 @@ class Truck extends Vehicle {
     }
 }
 
+class VehicleList extends ArrayList<Vehicle> {
+    public void displayAll() {
+        for (Vehicle v : this) {
+            v.displayInfo();
+        }
+    }
+}
+
 public class VehicleHierarchy {
     public static void main(String[] args) {
-        Car car = new Car("Toyota", 2020, 4);
-        Truck truck = new Truck("Volvo", 2019, 5.5);
-        car.displayInfo();
-        truck.displayInfo();
+        VehicleList vehicles = new VehicleList();
+        vehicles.add(new Car("Toyota", 2020, 4));
+        vehicles.add(new Car("BMW", 2018, 2));
+        vehicles.add(new Truck("Volvo", 2019, 5.5));
+
+        vehicles.displayAll();
+
+        ArrayList<Car> cars = new ArrayList<>();
+        for (Vehicle v : vehicles) {
+            if (v instanceof Car) cars.add((Car) v);
+        }
+
+        Collections.sort(cars);
+        System.out.println("\nSorted Cars:");
+        for (Car car : cars) {
+            car.displayInfo();
+        }
     }
 }
