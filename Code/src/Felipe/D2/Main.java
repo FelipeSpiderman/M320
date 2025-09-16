@@ -1,5 +1,6 @@
 package Felipe.D2;
 
+import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -86,23 +87,60 @@ class Schedule {
     }
 }
 
+class FlightManager {
+    private Schedule schedule;
+    private Scanner scanner;
+
+    public FlightManager() {
+        this.schedule = new Schedule();
+        this.scanner = new Scanner(System.in);
+    }
+
+    public void run() {
+        while (true) {
+            System.out.println("\n1. Add Flight\n2. Register Passenger\n3. Search Flight\n4. Remove Passenger\n5. Exit");
+            System.out.print("Choose an option: ");
+            String choice = scanner.nextLine();
+
+            switch (choice) {
+                case "1":
+                    System.out.print("Enter flight number: ");
+                    String flightNumber = scanner.nextLine();
+                    schedule.addFlight(new Flight(flightNumber));
+                    System.out.println("Flight " + flightNumber + " added.");
+                    break;
+                case "2":
+                    System.out.print("Enter flight number: ");
+                    String regFlight = scanner.nextLine();
+                    System.out.print("Enter passenger name: ");
+                    String passengerName = scanner.nextLine();
+                    schedule.registerPassenger(regFlight, new Passenger(passengerName));
+                    break;
+                case "3":
+                    System.out.print("Enter flight number to search: ");
+                    String searchFlight = scanner.nextLine();
+                    schedule.searchFlight(searchFlight);
+                    break;
+                case "4":
+                    System.out.print("Enter flight number: ");
+                    String remFlight = scanner.nextLine();
+                    System.out.print("Enter passenger name to remove: ");
+                    String remPassenger = scanner.nextLine();
+                    schedule.removePassengerFromFlight(remFlight, new Passenger(remPassenger));
+                    break;
+                case "5":
+                    System.out.println("Exiting...");
+                    scanner.close();
+                    return;
+                default:
+                    System.out.println("Invalid option.");
+            }
+        }
+    }
+}
+
 public class Main {
     public static void main(String[] args) {
-        Schedule schedule = new Schedule();
-        Flight flight1 = new Flight("FL123");
-        Flight flight2 = new Flight("FL456");
-
-        schedule.addFlight(flight1);
-        schedule.addFlight(flight2);
-
-        Passenger p1 = new Passenger("Anna");
-        Passenger p2 = new Passenger("Ben");
-
-        schedule.registerPassenger("FL123", p1);
-        schedule.registerPassenger("FL123", p2);
-
-        schedule.searchFlight("FL123");
-        schedule.removePassengerFromFlight("FL123", p1);
-        schedule.searchFlight("FL123");
+        new FlightManager().run();
     }
 }
