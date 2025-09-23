@@ -129,7 +129,7 @@ class FlightManager {
                     schedule.removePassengerFromFlight(remFlight, new Passenger(remPassenger));
                     break;
                 case "5":
-                    System.out.println("Exiting...");
+                     System.out.println("Exiting...");
                     scanner.close();
                     return;
                 default:
