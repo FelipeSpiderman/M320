@@ -1,0 +1,18 @@
+Personal Finance Manager Project
+
+This project is a backend application designed to help users manage their personal finances effectively.
+Users can register and log in to the system with role-based access control.
+The system allows users to add expenses by specifying amount, category, date, and description.
+Users can set monthly budgets for various categories such as food, transport, and entertainment.
+The application monitors spending and alerts users when they approach or exceed their budgets.
+Different algorithms are used to categorize expenses automatically, implemented via the Strategy design pattern.
+Personalized saving tips are generated based on the user’s spending trends and behavior.
+Data is stored persistently in a database including user information, expenses, and budgets.
+Input validation and exception handling ensure that data such as negative amounts are rejected with clear error messages.
+The Observer design pattern is used to notify users about important events like budget limits or unusual spending.
+Interfaces define the structure for expense categorization and notification services, promoting modular design.
+Inheritance is applied for different expense types and user roles to demonstrate polymorphism.
+The project follows clean architecture principles by separating UI (if any), business logic, and data persistence layers.
+UML class diagrams and sequence diagrams will illustrate the main classes, interfaces, and typical use case flows.
+Typical use cases include user registration, adding expenses, automatic categorization, budget update, and notification generation.
+This project fulfills the requirements of object-oriented design, design pattern application, validation, persistence, and clean coding.
