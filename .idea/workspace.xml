@@ -4,7 +4,90 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e710581-19ff-4730-8251-45c68009886d" name="Changes" comment="" />
+    <list default="true" id="3e710581-19ff-4730-8251-45c68009886d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Code/src/Felipe/V3/AbstractCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/Felipe/V3/AxtKrieger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/Felipe/V3/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/Felipe/V3/DolchKrieger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/Felipe/V3/DolchMagier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/Felipe/V3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/Felipe/V3/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/Felipe/V3/Rogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/Felipe/V3/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code/src/Felipe/V3/WeaponBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/M320.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/M320.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Code/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Code/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/.idea/copilot.data.migration.agent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/.idea/copilot.data.migration.edit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Code/Code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/D1/D1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/D1/D1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/D1/HeatingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/D1/HeatingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/D2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/D2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/D3/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/D3/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/D3/BookInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/D3/BookInitialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/D3/InvalidInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/D3/InvalidInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/D3/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/D3/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/D3/LibraryConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/D3/LibraryConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/D3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/D3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/Felipe/Q2/Calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/Felipe/Q2/Calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/Felipe/Q2/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/Felipe/Q2/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/Felipe/Q2/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/Felipe/Q2/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/element-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/resource-files/copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/resource-files/copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/resource-files/fonts/dejavu.css" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/resource-files/fonts/dejavu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/resource-files/link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/resource-files/link.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/resource-files/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/resource-files/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/script-files/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/script-files/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/script-files/search-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/script-files/search-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/script-files/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/script-files/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q2/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q2/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q3/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q3/Airport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q3/AirportRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q3/AirportRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q3/AirportSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q3/AirportSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/Q3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/Q3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/V1/VehicleHierarchy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/V1/VehicleHierarchy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Felipe/V2/TeamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Felipe/V2/TeamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/D1/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/D1/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/D1/Bank.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/D1/Bank.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/D1/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/D1/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/D1/MainBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/D1/MainBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/D2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/D2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/D2/SchoolClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/D2/SchoolClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/D2/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/D2/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/D2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/D2/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/D2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/D2/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/M319_Repetition/MathQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/M319_Repetition/MathQuiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/V1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/V1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/V1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/V1/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/V1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/V1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/V1/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/V1/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/V2/Assistant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/V2/Assistant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/V2/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/V2/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/V2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/V2/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/V2/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/V2/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/V2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/V2/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/Simon/V2/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/Simon/V2/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/src/repetitionM319/LottoGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/src/repetitionM319/LottoGame.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,12 +102,12 @@
     &quot;assignee&quot;: &quot;FelipeSpiderman&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/FelipeSpiderman/M320.git&quot;,
-    &quot;accountId&quot;: &quot;c60b1652-2fea-4d4f-b4fb-55d60bebc898&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/FelipeSpiderman/M320.git",
+    "accountId": "935b4fd5-7000-4afb-83a4-a3e07f285768"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -41,7 +124,7 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Projects/M320",
+    "last_opened_file_path": "/home/felipedebianuser/Documents/Git/M320/Code",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,8 +141,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
       </set>
     </attachedChunks>
   </component>
@@ -79,6 +162,7 @@
       <workItem from="1756793961188" duration="1034000" />
       <workItem from="1756803251680" duration="1679000" />
       <workItem from="1758004940211" duration="527000" />
+      <workItem from="1760077555242" duration="12000" />
     </task>
     <servers />
   </component>
