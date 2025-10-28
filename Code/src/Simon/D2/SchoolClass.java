@@ -18,7 +18,7 @@ public class SchoolClass {
     public float getAverage() {
         if (students.isEmpty()) return 0;
         float sum = 0;
-        for (Student s : students) sum += s.getNotenschnitt();
+        for (Student s : students) sum += s.getGrades();
         return sum / students.size();
     }
 

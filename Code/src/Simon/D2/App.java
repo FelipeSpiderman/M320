@@ -12,10 +12,10 @@ public class App {
 
     public void run() {
         while (true) {
-            System.out.println("1) Add student");
-            System.out.println("2) Add test to student");
-            System.out.println("3) Show averages");
-            System.out.println("4) Exit");
+            System.out.println("1. Add student");
+            System.out.println("2. Add test to student");
+            System.out.println("3. Show averages");
+            System.out.println("4. Exit");
             String choice = sc.nextLine();
 
             switch (choice) {
@@ -54,7 +54,7 @@ public class App {
 
     private void showAverages() {
         for (Student s : schoolClass.getStudents()) {
-            System.out.println(s.getName() + ": " + s.getNotenschnitt());
+            System.out.println(s.getName() + ": " + s.getGrades());
         }
         System.out.println("Class average: " + schoolClass.getAverage());
     }
