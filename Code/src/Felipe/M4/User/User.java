@@ -1,4 +1,4 @@
-package Felipe\M4\User\User.java;
+/* package Felipe\M4\User\User.java;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -60,4 +60,4 @@ class User{
     private void registerInteraction(){
 
     }
-}
+} */
