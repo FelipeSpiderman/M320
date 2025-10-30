@@ -15,7 +15,7 @@ public class Student {
         tests.add(t);
     }
 
-    public float getNotenschnitt() {
+    public float getGrades() {
         if (tests.isEmpty()) return 0;
         float sum = 0;
         for (Test t : tests) sum += t.calculateGrade();
