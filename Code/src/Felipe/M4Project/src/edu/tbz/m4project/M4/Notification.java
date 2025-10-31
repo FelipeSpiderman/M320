@@ -23,15 +23,13 @@ public class Notification {
     @Column(name = "created_at")
     private LocalDateTime createdAt = LocalDateTime.now();
     
-    // Constructors
     public Notification() {}
     
     public Notification(User user, String message) {
         this.user = user;
         this.message = message;
     }
-    
-    // Getters and Setters
+
     public Integer getNotificationId() {
         return notificationId;
     }

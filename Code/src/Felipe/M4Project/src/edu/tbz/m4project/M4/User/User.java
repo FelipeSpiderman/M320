@@ -21,7 +21,6 @@ public class User {
     @Column(nullable = false)
     private Boolean admin = false;
 
-    // Constructors
     public User() {}
 
     public User(String name, String email, Boolean admin) {
@@ -30,7 +29,6 @@ public class User {
         this.admin = admin != null ? admin : false;
     }
 
-    // Getters and Setters
     public Integer getUserId() {
         return userId;
     }

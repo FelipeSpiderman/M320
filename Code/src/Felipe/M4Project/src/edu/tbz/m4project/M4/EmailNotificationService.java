@@ -14,10 +14,8 @@ public class EmailNotificationService implements NotificationService {
 
     @Override
     public Notification sendNotification(User user, String message) {
-        // In a real application, this would send an email
         System.out.println("Sending email to " + user.getEmail() + ": " + message);
 
-        // Create and save notification record
         Notification notification = new Notification(user, message);
         return notificationRepository.save(notification);
     }

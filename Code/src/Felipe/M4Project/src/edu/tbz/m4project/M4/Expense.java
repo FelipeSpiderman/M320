@@ -31,7 +31,6 @@ public class Expense {
     @Column
     private String description;
 
-    // Constructors
     public Expense() {}
 
     public Expense(User user, Category category, BigDecimal amount, String description) {
@@ -41,7 +40,6 @@ public class Expense {
         this.description = description;
     }
 
-    // Getters and Setters
     public Integer getExpenseId() {
         return expenseId;
     }

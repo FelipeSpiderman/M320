@@ -1,13 +1,13 @@
 # Pull the latest PostgreSQL image from Docker Hub
 docker pull postgres
 
-# Create and run the container (replace 'financetrackerdb' with your preferred name)
-docker run --name financetrackerdb -e POSTGRES_PASSWORD=postgres -d postgres
+# Create and run the container
+docker run --name financetrackerdb -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
 
 # Verify the container is running
 docker ps
 
-# Access the PostgreSQL container (replace 'financetrackerdb' with your container name)
+# Access the PostgreSQL container
 docker exec -it financetrackerdb psql -U postgres
 
 

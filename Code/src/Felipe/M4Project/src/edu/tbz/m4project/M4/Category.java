@@ -14,14 +14,12 @@ public class Category {
     @Column(name = "name", nullable = false)
     private String name;
 
-    // Constructors
     public Category() {}
 
     public Category(String name) {
         this.name = name;
     }
 
-    // Getters and Setters
     public Integer getCategoryId() {
         return categoryId;
     }

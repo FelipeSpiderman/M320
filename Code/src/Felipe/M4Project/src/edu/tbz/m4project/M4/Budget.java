@@ -30,7 +30,7 @@ public class Budget {
     @Column(name = "spent")
     private BigDecimal spent = BigDecimal.ZERO;
 
-    // Constructors
+
     public Budget() {}
 
     public Budget(User user, Category category, BigDecimal limitAmount) {
@@ -47,7 +47,7 @@ public class Budget {
         this.spent = spent != null ? spent : BigDecimal.ZERO;
     }
 
-    // Getters and Setters
+
     public Integer getBudgetId() {
         return budgetId;
     }
@@ -96,7 +96,7 @@ public class Budget {
         this.spent = spent != null ? spent : BigDecimal.ZERO;
     }
 
-    // Business logic
+
     public boolean isOverBudget() {
         return spent.compareTo(limitAmount) > 0;
     }
